@@ -1,0 +1,288 @@
+.OF {
+    /* border: 1px solid red; */
+    width: 1090px;
+    height: 100%;
+    z-index: 0;
+    padding: 0px 0px;
+}
+
+
+
+.header {
+    /* border: 1px solid red; */
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    padding: 0px 0px;
+}
+
+.header .h-kuang {
+    /* border: 1px solid red; */
+    height: 90px;
+    width: 1190px;
+    margin: auto;
+    position: relative;
+}
+
+.h-kuang .DLJM-logo {
+    /* border: 1px solid red; */
+    position: relative;
+    padding: 30px 0px;
+    width: 190px;
+}
+
+
+
+.mainbody {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    height: 600px;
+}
+
+.mainbody .m-kuang-1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 600px;
+    width: 100%;
+    background-color: #00A3C2;
+    z-index: 1
+}
+
+.mainbody .m-kuang-2 {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 600px;
+    background: url(./image/beijing.jpg)no-repeat center;
+    z-index: 2;
+}
+
+.mainbody .m-kuang-2 .m-denglu {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 351px;
+    height: 407px;
+    left: 60%;
+    top: 91px;
+    z-index: 3;
+    background-color: white;
+}
+
+.m-denglu .m-denglu1 {
+    position: relative;
+    border: 1px solid red;
+    height: 20px;
+    width: 120px;
+    left: 20px;
+
+
+}
+
+.m-denglu .m-denglu-box {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 300px;
+    width: 291px;
+    left: 30px;
+    top: 48px;
+}
+
+
+
+.m-denglu .m-denglu-box .box1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 18px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #3c3c3c;
+    margin-top: 0px;
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+
+
+
+.m-denglu .m-denglu-box .box2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 46px;
+    width: 100%;
+    top: 54px;
+    left: 0px;
+    /* padding: 0px; */
+}
+
+.m-denglu-box .box2 .box2-1 {
+    position: relative;
+    padding: 0px;
+    /* border: 1px solid rgb(173, 90, 90); */
+    background-color: #DDDDDD;
+    height: 50px;
+    width: 49px;
+    z-index: 5;
+}
+
+.m-denglu-box .box2 .box2-1 .HY {
+    position: relative;
+    padding: 9px 13px 9px 13px;
+    z-index: 6;
+}
+
+.m-denglu-box .box2 .box2-2 {
+    position: absolute;
+    padding: 0px;
+    /* border: 1px solid red; */
+    height: 58px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.box2 .box2-2 .inp1 {
+    position: relative;
+    padding: 6px 12px 6px 57px;
+    /* border: 1px solid red; */
+    height: 34px;
+    width: 219px;
+    left: 0px;
+    right: 0px;
+    color: #999999;
+}
+
+
+
+.m-denglu .m-denglu-box .box3 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 46px;
+    width: 100%;
+    top: 130px;
+    left: 0px;
+}
+
+.m-denglu-box .box3 .box3-1 {
+    position: relative;
+    padding: 0px;
+    /* border: 1px solid rgb(173, 90, 90); */
+    background-color: #DDDDDD;
+    height: 48px;
+    width: 48px;
+    z-index: 5;
+}
+
+.m-denglu-box .box3 .box3-1 .MM {
+    position: relative;
+    padding: 9px 13px 9px 13px;
+    z-index: 6;
+}
+
+.m-denglu-box .box3 .box3-2 {
+    position: absolute;
+    padding: 0px;
+    /* border: 1px solid red; */
+    height: 58px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.box3 .box3-2 .inp2 {
+    position: relative;
+    padding: 6px 12px 6px 57px;
+    /* border: 1px solid red; */
+    height: 32px;
+    width: 219px;
+    color: #999999;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+.m-denglu .m-denglu-box .box4 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 100%;
+    font-weight: 700;
+    left: 0px;
+    top: 195px;
+    background-color: #ff0036;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+}
+
+.m-denglu .m-denglu-box .box4:hover {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    font-weight: 700;
+    left: 0px;
+    top: 195px;
+    background-color: #ff335e;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+}
+
+.m-denglu-box .box4-1 {
+    color: rgb(255, 255, 255);
+}
+
+
+
+.m-denglu .m-denglu-box .box5 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 25px;
+    width: 100%;
+    top: 260px;
+}
+
+.m-denglu-box .box5 .a1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    right: 130px;
+    width: 50px;
+    top: 0px;
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.m-denglu-box .box5 .a2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    right: 60px;
+    width: 60px;
+    top: 0px;
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.m-denglu-box .box5 .a3 {
+    position: absolute;
+    /* border: 1px solid red; */
+    right: 0px;
+    width: 50px;
+    top: 0px;
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+
+
+.footer {
+    border: 1px solid red;
+    position: absolute;
+    top: 690px;
+    height: 300px;
+    width: 100%;
+}
