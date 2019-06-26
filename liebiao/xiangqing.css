@@ -1,0 +1,726 @@
+.dv1 {
+    border: 1px solid #ccc;
+    background: rgb(241, 241, 241);
+}
+
+.dv1-1 {
+    /* border: 1px solid red; */
+    width: 1200px;
+    height: 28px;
+    margin: 0px auto;
+}
+
+.dv1-11 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: left;
+}
+
+.dv1-11>a {
+    color: rgb(170, 170, 170);
+}
+
+.dv1-11>a:hover {
+    color: red;
+}
+
+.dv1-11>i {
+    color: red;
+}
+
+.dv1-12 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: left;
+    margin-left: 10px;
+}
+
+.dv1-12>a {
+    color: rgb(170, 170, 170);
+}
+
+.dv1-12>a:hover {
+    color: red;
+}
+
+.dv1-12>i {
+    color: rgb(240, 204, 0);
+}
+
+.dv1-13 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: left;
+    margin-left: 10px;
+}
+
+.dv1-13>a {
+    color: rgb(170, 170, 170);
+}
+
+.dv1-13>a:hover {
+    color: red;
+}
+
+.dv1-14 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: left;
+    margin-left: 15px;
+}
+
+.dv1-14>a {
+    color: rgb(170, 170, 170);
+}
+
+.dv1-14>a:hover {
+    color: red;
+}
+
+.dv1-15 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: left;
+    margin-left: 15px;
+}
+
+.dv1-15>a {
+    color: rgb(170, 170, 170);
+}
+
+.dv1-15>a:hover {
+    color: red;
+}
+
+.dv1-16 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: right;
+}
+
+.wzdh {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+}
+
+.wzdh>a {
+    color: rgb(170, 170, 170);
+}
+
+.wzdh>a:hover {
+    color: red;
+}
+
+.wzdh .i1 {
+    color: red;
+}
+
+.wzdh .wzdh-dv {
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    z-index: 10;
+    display: none;
+}
+
+.wzdh {
+    /* 过度动画效果 */
+    transition: opacity 3s ease-in;
+    position: relative;
+}
+
+.wzdh:hover {
+    background: white;
+}
+
+
+/* 过度动画效果 */
+.wzdh:hover .wzdh-dv {
+    border: 0.5px solid rgb(170, 170, 170);
+    display: block;
+    opacity: 1;
+    background: white;
+}
+
+.wzdh-ul {
+    border: 0.5px solid rgb(170, 170, 170);
+    width: 1200px;
+    height: 162px;
+    position: relative;
+}
+
+.wzdh:hover .i2 {
+    transition: all 0.5s;
+    transform: rotate(180deg);
+}
+
+.hot {
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 162px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.hot1 {
+    font-size: 17px;
+    font-weight: bold;
+    color: orange;
+    position: absolute;
+    left: 32px;
+    top: 10px;
+}
+
+.hot2 {
+    position: absolute;
+    left: 32px;
+    top: 40px;
+}
+
+.hot3 {
+    position: absolute;
+    left: 32px;
+    top: 70px;
+}
+
+.hot4 {
+    position: absolute;
+    left: 32px;
+    top: 100px;
+}
+
+.hot5 {
+    position: absolute;
+    left: 112px;
+    top: 40px;
+}
+
+.hot6 {
+    position: absolute;
+    left: 112px;
+    top: 70px;
+}
+
+.hot7 {
+    position: absolute;
+    left: 112px;
+    top: 100px;
+}
+
+.hot8 {
+    position: absolute;
+    left: 192px;
+    top: 40px;
+}
+
+.hot9 {
+    position: absolute;
+    left: 192px;
+    top: 70px;
+}
+
+.hot10 {
+    position: absolute;
+    left: 192px;
+    top: 100px;
+}
+
+.hot11 {
+    position: absolute;
+    left: 272px;
+    top: 40px;
+}
+
+.hot12 {
+    position: absolute;
+    left: 272px;
+    top: 70px;
+}
+
+.hot13 {
+    position: absolute;
+    left: 272px;
+    top: 100px;
+}
+
+.market {
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 162px;
+    position: absolute;
+    left: 400px;
+    top: 0px;
+}
+
+.market1 {
+    font-size: 17px;
+    font-weight: bold;
+    color: blue;
+    position: absolute;
+    left: 32px;
+    top: 10px;
+}
+
+.market2 {
+    position: absolute;
+    left: 32px;
+    top: 40px;
+}
+
+.market3 {
+    position: absolute;
+    left: 32px;
+    top: 70px;
+}
+
+.market4 {
+    position: absolute;
+    left: 32px;
+    top: 100px;
+}
+
+.market5 {
+    position: absolute;
+    left: 112px;
+    top: 40px;
+}
+
+.market6 {
+    position: absolute;
+    left: 112px;
+    top: 70px;
+}
+
+.market7 {
+    position: absolute;
+    left: 112px;
+    top: 100px;
+}
+
+.market8 {
+    position: absolute;
+    left: 192px;
+    top: 40px;
+}
+
+.market9 {
+    position: absolute;
+    left: 192px;
+    top: 70px;
+}
+
+.market10 {
+    position: absolute;
+    left: 192px;
+    top: 100px;
+}
+
+.market11 {
+    position: absolute;
+    left: 272px;
+    top: 40px;
+}
+
+.market12 {
+    position: absolute;
+    left: 272px;
+    top: 70px;
+}
+
+.market13 {
+    position: absolute;
+    left: 272px;
+    top: 100px;
+}
+
+.help {
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 162px;
+    position: absolute;
+    left: 800px;
+    top: 0px;
+}
+
+.help1 {
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    left: 32px;
+    top: 10px;
+}
+
+.help2 {
+    position: absolute;
+    left: 32px;
+    top: 40px;
+}
+
+.help3 {
+    position: absolute;
+    left: 32px;
+    top: 70px;
+}
+
+.help4 {
+    position: absolute;
+    left: 112px;
+    top: 40px;
+}
+
+.help5 {
+    position: absolute;
+    left: 192px;
+    top: 40px;
+}
+
+
+.sjzc {
+    /* border: 1px solid red; */
+    float: right;
+    margin-right: 15px;
+    padding: 0px 5px;
+}
+
+.sjzc:hover {
+    background: white;
+}
+
+.sjzc>a {
+    color: rgb(170, 170, 170);
+}
+
+.sjzc>a:hover {
+    color: red;
+}
+
+.sjzc .sjzc-dv {
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    z-index: 10;
+    display: none;
+}
+
+.sjzc {
+    /* 过度动画效果 */
+    transition: opacity 3s ease-in;
+    position: relative;
+}
+
+
+/* 过度动画效果 */
+.sjzc:hover .sjzc-dv {
+    border: 0.5px solid rgb(170, 170, 170);
+    display: block;
+    opacity: 1;
+    background: white;
+}
+
+.sjzc-ul {
+    border: 0.5px solid rgb(170, 170, 170);
+    width: 145px;
+    height: 175px;
+    position: relative;
+}
+
+.sjzc:hover .i2 {
+    transition: all 0.5s;
+    transform: rotate(180deg);
+}
+
+.sj1 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-weight: bold;
+}
+
+.sj2 {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+
+.sj3 {
+    position: absolute;
+    left: 10px;
+    top: 45px;
+}
+
+.sj4 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.sj5 {
+    position: absolute;
+    left: 10px;
+    top: 85px;
+}
+
+.sj6 {
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.sj7 {
+    position: absolute;
+    right: 10px;
+    top: 45px;
+}
+
+.sj8 {
+    position: absolute;
+    right: 10px;
+    top: 65px;
+}
+
+.sj9 {
+    position: absolute;
+    right: 10px;
+    top: 85px;
+}
+
+.sj10 {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+}
+
+.sj11 {
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    font-weight: bold;
+}
+
+.sj12 {
+    position: absolute;
+    left: 10px;
+    top: 140px;
+}
+
+.sj13 {
+    position: absolute;
+    right: 23px;
+    top: 140px;
+}
+
+.sj14 {
+    position: absolute;
+    right: 10px;
+    top: 150px;
+}
+
+
+
+.tbw {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+    margin-right: 15px;
+}
+
+.tbw>a {
+    color: rgb(170, 170, 170);
+}
+
+.tbw:hover {
+    background: white;
+}
+
+.tbw>a:hover {
+    color: red;
+}
+
+.sjb {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+    margin-right: 15px;
+}
+
+.sjb .i1 {
+    color: red;
+}
+
+.sjb>a {
+    color: rgb(170, 170, 170);
+}
+
+.sjb:hover {
+    background: white;
+}
+
+.sjb>a:hover {
+    color: red;
+}
+
+.l {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 6px;
+    color: rgb(170, 170, 170);
+}
+
+
+.scj {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+}
+
+.scj:hover {
+    background: white;
+}
+
+.scj>a {
+    color: rgb(170, 170, 170);
+}
+
+.scj>a:hover {
+    color: red;
+}
+
+.scj .scj-dv {
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    z-index: 10;
+    display: none;
+}
+
+.scj {
+    /* 过度动画效果 */
+    transition: opacity 3s ease-in;
+    position: relative;
+}
+
+
+/* 过度动画效果 */
+.scj:hover .scj-dv {
+    border: 0.5px solid rgb(170, 170, 170);
+    display: block;
+    opacity: 1;
+    background: white;
+}
+
+.scj-ul {
+    border: 0.5px solid rgb(170, 170, 170);
+    width: 84px;
+    height: 58px;
+    position: relative;
+}
+
+.scj:hover .i2 {
+    transition: all 0.5s;
+    transform: rotate(180deg);
+}
+
+.sc1 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.sc2 {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+
+.gwc {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+    margin-right: 15px;
+}
+
+.gwc .i1 {
+    color: red;
+}
+
+.gwc>a {
+    color: rgb(170, 170, 170);
+}
+
+.gwc:hover {
+    background: white;
+}
+
+.gwc>a:hover {
+    color: red;
+}
+
+.wdtb {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+    margin-right: 15px;
+}
+
+.wdtb:hover {
+    background: white;
+}
+
+.wdtb>a {
+    color: rgb(170, 170, 170);
+}
+
+.wdtb>a:hover {
+    color: red;
+}
+
+.wdtb .wdtb-dv {
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    z-index: 10;
+    display: none;
+}
+
+.wdtb {
+    /* 过度动画效果 */
+    transition: opacity 3s ease-in;
+    position: relative;
+}
+
+
+/* 过度动画效果 */
+.wdtb:hover .wdtb-dv {
+    border: 0.5px solid rgb(170, 170, 170);
+    display: block;
+    opacity: 1;
+    background: white;
+}
+
+.wdtb-ul {
+    border: 0.5px solid rgb(170, 170, 170);
+    width: 84px;
+    height: 58px;
+    position: relative;
+}
+
+.wdtb:hover .i2 {
+    transition: all 0.5s;
+    transform: rotate(180deg);
+}
+
+.wd1 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.wd2 {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+
+/* 上导航 */
