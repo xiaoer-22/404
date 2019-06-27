@@ -1,19 +1,17 @@
 .OF {
     position: absolute;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     height: 100%;
     z-index: 0;
     padding: 0px 0px;
 }
 
-
-
 .OF .WK {
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 990px;
-    height: 600px;
+    height: 750px;
     z-index: 1;
     margin: auto;
 }
@@ -47,7 +45,7 @@
     height: 48px;
     z-index: 3;
     left: 160px;
-    border-bottom: 2px solid #cccccc;
+    border-bottom: 2px solid #FF0036;
 }
 
 .NK1 .NK1-2 .NK1-2-1 {
@@ -66,7 +64,7 @@
     width: 25px;
     height: 25px;
     z-index: 5;
-    background-color: #cccccc;
+    background-color: #FF0036;
     border-radius: 100%;
 }
 
@@ -153,7 +151,7 @@
     height: 48px;
     z-index: 3;
     left: 520px;
-    border-bottom: 2px solid #E6E6E6;
+    border-bottom: 2px solid #FF0036;
 }
 
 .NK1 .NK1-4 .NK1-4-1 {
@@ -172,7 +170,7 @@
     width: 25px;
     height: 25px;
     z-index: 5;
-    background-color: #cccccc;
+    background-color: #FF0036;
     border-radius: 100%;
 }
 
@@ -234,7 +232,7 @@
     z-index: 6;
     line-height: 25px;
     font-size: 24px;
-    left: 5px;
+    left: 3px;
     color: #ffffff;
 }
 
