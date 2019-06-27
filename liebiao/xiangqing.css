@@ -1279,7 +1279,7 @@
 
 
 .dv6-20 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 510px;
     height: 50px;
     position: absolute;
@@ -1300,4 +1300,88 @@
     top: 3px;
     left: 90px;
     border: 2px solid red;
+}
+
+.dv6-21 {
+    /* border: 1px solid red; */
+    width: 510px;
+    height: 50px;
+    position: absolute;
+    top: 318px;
+    right: 210px;
+}
+
+.span16 {
+    position: absolute;
+    top: 12px;
+    left: 7px;
+    color: #999;
+    font-size: 12px;
+}
+
+.shuliang {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 3px;
+    left: 90px;
+}
+
+.shuliang input {
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+}
+
+.dv6-22 {
+    /* border: 1px solid red; */
+    width: 375px;
+    height: 45px;
+    position: absolute;
+    top: 418px;
+    right: 255px;
+}
+
+.ljgm {
+    float: left;
+    border: 1px solid red;
+    background: #FFEDED;
+    font-size: 16px;
+    color: red;
+    padding: 0px 55px;
+    line-height: 45px;
+}
+
+.jrgwc {
+    float: right;
+    border: 1px solidred;
+    background: red;
+    font-size: 16px;
+    color: #FFEDED;
+    padding: 1px 42px;
+    line-height: 45px;
+}
+
+.dv6-23 {
+    position: absolute;
+    top: 495px;
+    right: 255px;
+    width: 450px;
+    height: 40px;
+    /* border: 1px solid red; */
+}
+
+.dv6-23 ul>li {
+    float: left;
+    margin: 0px 15px;
+}
+
+.dv6-23 ul li>span {
+    color: #979797;
+}
+
+.dv6-3 {
+    border: 1px solid red;
+    margin: 0px auto;
+    width: 1200px;
+    height: 900px;
 }
