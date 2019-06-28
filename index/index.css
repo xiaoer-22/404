@@ -2958,9 +2958,18 @@ input::-webkit-input-this.placeholder {
 }
 
 .foot-2 {
+    position: relative;
     width: 1190px;
     height: 213px;
     margin: 0px auto;
+}
+
+.cat {
+    position: absolute;
+    bottom: -11px;
+    left: 90px;
+    width: 85px;
+    height: 28px;
 }
 
 .foot-2 div {
