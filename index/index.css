@@ -7,6 +7,66 @@ body {
     z-index: 0;
 }
 
+/* 左边导航栏 */
+.left-nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 20;
+}
+
+.left-nav-box1 {
+    position: fixed;
+    margin-top: 400px;
+    /* width: 20px; */
+    height: 60px;
+    line-height: 66px;
+    padding-left: 10px;
+    background: #000000;
+    color: white;
+    opacity: 0.6;
+}
+
+.left-nav-box2 {
+    position: absolute;
+    top: -75px;
+    left: 25px;
+    display: none;
+}
+
+.left-nav-box1:hover .left-nav-box2 {
+    display: block;
+}
+
+.left-nav-box2 a {
+    position: relative;
+    display: block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 1px;
+    background-color: rgba(0, 0, 0, .6);
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.mui-lift-nav-name {
+    line-height: 12px;
+    width: 24px;
+    height: 28px;
+    margin: 6px auto;
+}
+
+.left-nav-box2 a:hover {
+    background: #000000;
+    opacity: 0.9;
+}
+
 /* 右边导航栏 */
 .right-nav {
     position: fixed;
