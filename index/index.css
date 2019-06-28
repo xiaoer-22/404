@@ -445,7 +445,7 @@ body {
 
 /* 头部导航栏 head */
 .head {
-    position: absolute;
+    position: relative;
     top: 0px;
     right: 0px;
     left: 0px;
