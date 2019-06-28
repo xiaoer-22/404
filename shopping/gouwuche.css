@@ -63,7 +63,7 @@
     top: 35px;
     left: 0px;
     display: none;
-    background: rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
 }
 
 .box3:hover .uk1 {
@@ -166,6 +166,7 @@
     left: 0px;
     display: none;
     background: #ffffff;
+    z-index: 10;
 }
 
 .gg1:hover .uk2 {
@@ -288,6 +289,7 @@
     position: absolute;
     top: 2px;
     right: 4px;
+    margin: 0px auto;
 }
 
 .gg4 {
@@ -327,6 +329,7 @@
     right: 4px;
     background: #ffffff;
     display: none;
+    z-index: 10;
 }
 
 .gg4:hover .uk3 {
@@ -390,6 +393,7 @@
     right: 8px;
     background: #ffffff;
     display: none;
+    z-index: 10;
 }
 
 .gg5:hover .uk4 {
@@ -538,6 +542,7 @@
     right: 7px;
     background: #ffffff;
     display: none;
+    z-index: 10;
 }
 
 .gg7:hover .uk5 {
@@ -641,6 +646,7 @@
     right: -10px;
     background: #ffffff;
     display: none;
+    z-index: 10;
 }
 
 .gg9:hover .uk6 {
@@ -751,14 +757,22 @@
     position: absolute;
     width: 79px;
     height: 60px;
-    top: 34px;
-    right: -10px;
+    top: 30px;
+    right: 0px;
     background: #ffffff;
     display: none;
+    z-index: 10;
 }
 
 .kuang6:hover .uk7 {
     display: block;
+}
+
+.too {
+    font-size: 10px;
+    color: #797979;
+    text-decoration: none;
+    margin: 0px 27px;
 }
 
 .kk55 {
