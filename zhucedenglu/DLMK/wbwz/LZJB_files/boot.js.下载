@@ -1,0 +1,104 @@
+//获取debug配置 当本地开发调试时 只需要在页面URL后增加dev参数即可
+// window.isDev = !!~location.search.indexOf('dev');
+window.isDev = !!~location.search.indexOf('localhost:') || !!~location.href.indexOf('localhost:') || !!~location.href.indexOf('8080');
+window.isDaily = !!~location.search.indexOf('daily');
+window.productionMode = (document.getElementById("productionMode").value == "true")
+
+function bootStart(url) {
+    var _jsDomain = document.getElementById("jsDomain").value;
+    var _version = document.getElementById("jsVersion").value;
+
+    var _basePath = '';
+    if (isDev) {
+        _basePath = _jsDomain + "/src/";
+    } else if (isDaily) {
+        _basePath = "";
+    } else {
+        _basePath = _jsDomain + '/platform/lz_cps/' + _version + "/";
+    }
+    /**
+     * seajs config
+     * seajs的配置项
+     *
+     * @author chaoyi.ycy
+     * @date 2014-12-30
+     */
+    seajs.config({
+
+        base: _basePath,
+        paths: {
+            'platform': _jsDomain,
+
+            //2014-11-25 ycy 切换 参见：http://gitlab.alibaba-inc.com/alinw/yosemite/issues/63
+            'alinw': 'https://alinw.alicdn.com/alinw',
+            'arale': 'https://alinw.alipayobjects.com/arale',
+            'alipay': 'https://alinw.alipayobjects.com/alipay',
+            'gallery': 'https://alinw.alipayobjects.com/gallery',
+
+            'anima': 'lib/sea-modules/anima',
+            'alinwlocal': 'lib/sea-modules/alinw',
+            'gallerylocal': 'lib/sea-modules/gallery',
+            'select': 'alinw/select/2.0.5/select',
+            'people': 'apps/people',
+            'config': 'apps/config',
+            'widgets': 'apps/widgets',
+            'utils': 'apps/utils',
+            'lib': 'lib',
+            'plugins': 'plugins',
+            'data': 'data',
+            'css': 'css'
+        },
+
+        alias: {
+            //公共JS- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            "$-debug": "alinw/jquery/1.8.3/jquery-debug",
+            "$": "alinw/jquery/1.8.3/jquery",
+            "jquery": "alinw/jquery/1.8.3/jquery",
+            "pagination": "alinw/pagination/2.0.9/pagination",
+            "detect-zoom": "alinw/detect-zoom/1.0.4/detect-zoom",
+            "dialog": "alinw/dialog/2.0.5/dialog",
+            "confirm": "alinw/dialog/2.0.5/confirmbox",
+            'selectperson': 'alinw/selectperson/1.0.13/selectperson',
+            'select': 'alinw/select/2.0.5/select-debug',
+            'kuma-select': 'alinw/kuma-select/2.0.1/kuma-select.css',
+            "tip": "alinw/tip/2.0.0/tip",
+            "autosearch": "alinw/autosearch/1.1.2/autosearch",
+            "validator": "alinw/jquery-validate/0.0.2/jquery-validate",
+            'handlebars': 'alinw/handlebars/1.3.0/handlebars',
+            "_": 'gallery/underscore/1.6.0/underscore',
+            "backbone": "gallery/backbone/1.1.0/backbone",
+            'jquery-tree': 'alinw/jquery-tree/1.0.2/jquery-tree.js',
+            'jquery-tree.css': 'alinw/jquery-tree/1.0.2/jquery-tree.css',
+            "uploadify": "alinw/uploadify/1.0.1/uploadify",
+            "calendar": "alinw/calendar/1.1.8/calendar",
+            "tabs": "alinw/switchable/1.0.1/tabs",
+
+            "form": "lib/form/form",
+            "blockui": "lib/blockui/blockui",
+
+              
+            //自定义JS- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            "widget": "arale/widget/1.0.3/widget",
+            "json": "lib/json/json",
+            "foot": 'widgets/foot/foot',
+            "sidenav": 'widgets/sidenav/sidenav',
+            "workhead": 'utils/work',
+            "setting": 'apps/setting',
+            "common": "utils/common",
+            "msgbox": "utils/msgbox",
+            "handlehelp": "utils/handle-help",
+            "fileUpload": "utils/file-upload"
+
+            //--------------END---------------------------------------------------
+            //--------------DEBUG 调试路径-----------------------------------------
+
+        },
+        preload: ['$'],
+        debug: false, // 调试模式
+
+        charset: 'utf-8' // 文件编码
+    });
+}
+
+
+bootStart();

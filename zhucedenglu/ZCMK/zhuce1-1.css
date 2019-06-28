@@ -1,0 +1,1211 @@
+.OF {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    padding: 0px 0px;
+}
+
+
+
+.OF .WK {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 990px;
+    height: 750px;
+    z-index: 1;
+    margin: auto;
+}
+
+
+
+.OF .WK .NK1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 990px;
+    height: 48px;
+    z-index: 2;
+    left: 0px;
+}
+
+.WK .NK1 .NK1-1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 160px;
+    height: 48px;
+    z-index: 3;
+    left: 0px;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+
+.WK .NK1 .NK1-2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 165px;
+    height: 48px;
+    z-index: 3;
+    left: 160px;
+    border-bottom: 2px solid #FF0036;
+}
+
+.NK1 .NK1-2 .NK1-2-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 120px;
+    height: 30px;
+    z-index: 4;
+    margin: auto;
+    top: 8px;
+}
+
+.NK1-2 .NK1-2-1 .NK1-2-1-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+    z-index: 5;
+    background-color: #FF0036;
+    border-radius: 100%;
+}
+
+.NK1-2-1 .NK1-2-1-1 .wz1 {
+    position: relative;
+    z-index: 6;
+    line-height: 25px;
+    font-size: 24px;
+    left: 5px;
+    color: #ffffff;
+}
+
+.NK1-2 .NK1-2-1 .NK1-2-1-2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 85px;
+    height: 20px;
+    z-index: 5;
+    right: 8px;
+    top: 5px;
+    bottom: 2px;
+    font-size: 17px;
+    font-family: SimHei;
+}
+
+
+.WK .NK1 .NK1-3 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 180px;
+    height: 48px;
+    z-index: 3;
+    left: 325px;
+    border-bottom: 2px solid  #E6E6E6;
+}
+
+.NK1 .NK1-3 .NK1-3-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 133px;
+    height: 30px;
+    z-index: 4;
+    margin: 0px 7px;
+    top: 8px;
+}
+
+.NK1-3 .NK1-3-1 .NK1-3-1-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+    z-index: 5;
+    background-color:  #E6E6E6;
+    border-radius: 100%;
+}
+
+.NK1-3-1 .NK1-3-1-1 .wz2 {
+    position: relative;
+    z-index: 6;
+    line-height: 25px;
+    font-size: 24px;
+    left: 5px;
+    color: #ffffff;
+}
+
+.NK1-3 .NK1-3-1 .NK1-3-1-2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 102px;
+    height: 20px;
+    z-index: 5;
+    right: 0px;
+    top: 4px;
+    bottom: 2px;
+    font-size: 17px;
+    font-family: SimHei;
+}
+
+
+.WK .NK1 .NK1-4 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 165px;
+    height: 48px;
+    z-index: 3;
+    left: 490px;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+.NK1 .NK1-4 .NK1-4-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 133px;
+    height: 30px;
+    z-index: 4;
+    margin: auto;
+    top: 8px;
+}
+
+.NK1-4 .NK1-4-1 .NK1-4-1-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+    z-index: 5;
+    background-color: #E6E6E6;
+    border-radius: 100%;
+}
+
+.NK1-4-1 .NK1-4-1-1 .wz3 {
+    position: relative;
+    z-index: 6;
+    line-height: 25px;
+    font-size: 24px;
+    left: 5px;
+    color: #ffffff;
+}
+
+.NK1-4 .NK1-4-1 .NK1-4-1-2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 102px;
+    height: 20px;
+    z-index: 5;
+    right: 0px;
+    top: 4px;
+    bottom: 2px;
+    font-size: 17px;
+    font-family: SimHei;
+}
+
+
+
+.WK .NK1 .NK1-5 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 165px;
+    height: 48px;
+    z-index: 3;
+    left: 655px;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+
+.NK1 .NK1-5 .NK1-5-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 133px;
+    height: 30px;
+    z-index: 4;
+    margin: 0px 24px;
+    top: 8px;
+}
+
+.NK1-5 .NK1-5-1 .NK1-5-1-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+    z-index: 5;
+    background-color: #cccccc;
+    border-radius: 100%;
+}
+
+.NK1-5-1 .NK1-5-1-1 .wz4 {
+    position: relative;
+    z-index: 6;
+    line-height: 25px;
+    font-size: 24px;
+    left: 3px;
+    color: #ffffff;
+}
+
+.NK1-5 .NK1-5-1 .NK1-5-1-2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 102px;
+    height: 20px;
+    z-index: 5;
+    right: 0px;
+    top: 4px;
+    bottom: 2px;
+    font-size: 17px;
+    font-family: SimHei;
+
+}
+
+
+
+.WK .NK1 .NK1-6 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 167px;
+    height: 48px;
+    z-index: 3;
+    right: 0px;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+
+
+.OF .WK .NK2 {
+    position: absolute;
+    border-top: 2px solid red;
+    border-bottom: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    height: 473px;
+    width: 700px;
+    top: 130px;
+    left: 160px;
+}
+
+
+.WK .NK2 .NK2-1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 27px;
+    width: 96%;
+    top: 27px;
+    left: 27px;
+    position: relative;
+    line-height: 27px;
+    font: 16px/1.5 tahoma, arial, "\5b8b\4f53";
+    font-weight: bold;
+}
+
+
+.WK .NK2 .NK2-2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 350px;
+    width: 92%;
+    top: 54px;
+    left: 27px;
+}
+
+.NK2 .NK2-2 .NK2-2-1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 35px;
+    width: 100%;
+    top: 20px;
+    font-size: 13px;
+}
+
+.NK2-2 .NK2-2-1 .NK2-2-1-1 {
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+.NK2 .NK2-2 .NK2-2-2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 70px;
+    width: 100%;
+    top: 57px;
+    font-size: 13px;
+}
+
+.NK2-2 .NK2-2-2 .wb1 {
+    position: relative;
+    top: 5px;
+}
+
+.NK2-2 .NK2-2-2 .wb2 {
+    position: relative;
+    top: 10px;
+}
+
+.NK2-2 .NK2-2-2 .wb3 {
+    position: relative;
+    top: 15px;
+}
+
+
+
+.NK2 .NK2-2 .NK2-2-3 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 100%;
+    top: 129px;
+    padding: 5px 0px;
+    line-height: 100%;
+    font-size: 13px;
+}
+
+
+.NK2 .NK2-2 .NK2-2-4 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 100%;
+    top: 154px;
+    padding: 5px 0px;
+    line-height: 100%;
+    font-size: 13px;
+}
+
+.NK2 .NK2-2 .NK2-2-5 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 100%;
+    top: 203px;
+    padding: 5px 0px;
+    line-height: 100%;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+
+.NK2 .NK2-2 .NK2-2-6 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+    top: 228px;
+    padding: 10px 0px;
+    line-height: 100%;
+}
+
+.NK2-2 .NK2-2-6 .a1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 100%;
+    top: 0px;
+    padding: 6px 0px;
+    line-height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff3761;
+}
+
+
+.NK2-2 .NK2-2-6 .a2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 100%;
+    top: 28px;
+    padding: 6px 0px;
+    line-height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff3761;
+}
+
+
+.NK2-2 .NK2-2-6 .a3 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 100%;
+    bottom: 35px;
+    padding: 6px 0px;
+    line-height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff3761;
+}
+
+.NK2-2 .NK2-2-6 .a4 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 100%;
+    bottom: 8px;
+    padding: 6px 0px;
+    line-height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff3761;
+}
+
+
+
+.WK .NK2 .NK2-3 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 30%;
+    font-weight: 700;
+    left: 35%;
+    bottom: 27px;
+    background-color: #ff0036;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+}
+
+.WK .NK2 .NK2-3:hover {
+    position: absolute;
+    height: 40px;
+    width: 30%;
+    font-weight: 700;
+    left: 35%;
+    bottom: 27px;
+    background-color: #ff335e;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+}
+
+.NK2 .NK2-3 .NK2-3-1 {
+    color: rgb(255, 255, 255);
+}
+
+
+.WK .NK2 .NK2-4 {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 20px;
+    width: 20px;
+    right: 20px;
+    top: 20px;
+    line-height: 20px;
+    font-size: 28px;
+}
+
+.NK2 .NK2-4 .a1 {
+    position: relative;
+    color: #ff0036;
+    left: 2px;
+}
+
+
+
+
+
+
+.footer {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 690px;
+    height: 220px;
+    width: 100%;
+}
+
+.footer .f-kuang {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 1190px;
+    margin: auto;
+    padding: 0px 0px 0px 190px;
+}
+
+.footer .f-kuang .f-kuang-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 20px;
+    width: 100%;
+    top: 30px;
+}
+
+
+.f-kuang .f-kuang-1 .a1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 0px;
+    width: 50px;
+    top: 0px;
+    padding: 0px 3px 0px 0px;
+    line-height: 20px;
+    /* font-size: 10px; */
+    color: #000000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-1 .a1:hover {
+    text-decoration: underline;
+}
+
+
+.f-kuang .f-kuang-1 .a2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 53px;
+    width: 50px;
+    top: 0px;
+    padding: 0px 3px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-1 .a2:hover {
+    text-decoration: underline;
+}
+
+
+.f-kuang .f-kuang-1 .a3 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 106px;
+    width: 50px;
+    top: 0px;
+    padding: 0px 3px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-1 .a3:hover {
+    text-decoration: underline;
+}
+
+
+.f-kuang .f-kuang-1 .a4 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 159px;
+    width: 50px;
+    top: 0px;
+    padding: 0px 3px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-1 .a4:hover {
+    text-decoration: underline;
+}
+
+
+.f-kuang .f-kuang-1 .a5 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 212px;
+    width: 50px;
+    top: 0px;
+    padding: 0px 3px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-1 .a5:hover {
+    text-decoration: underline;
+}
+
+
+.f-kuang .f-kuang-1 .a6 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 265px;
+    width: 50px;
+    top: 0px;
+    padding: 0px 3px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-1 .a6:hover {
+    text-decoration: underline;
+}
+
+
+.f-kuang .f-kuang-1 .a7 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 318px;
+    width: 50px;
+    top: 0px;
+    padding: 0px 3px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-1 .a7:hover {
+    text-decoration: underline;
+}
+
+
+.f-kuang .f-kuang-1 .a8 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 371px;
+    width: 60px;
+    top: 0px;
+    padding: 0px 3px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-1 .a8:hover {
+    text-decoration: underline;
+}
+
+
+.f-kuang .f-kuang-1 .a9 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 434px;
+    width: 50px;
+    top: 0px;
+    padding: 0px 3px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-1 .a9:hover {
+    text-decoration: underline;
+}
+
+
+.f-kuang .f-kuang-1 .a10 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 487px;
+    width: 50px;
+    top: 0px;
+    padding: 0px 3px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-1 .a10:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer .f-kuang .f-kuang-2 {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 20px;
+    width: 100%;
+    top: 50px;
+}
+
+
+.f-kuang .f-kuang-2 .a1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 0px;
+    width: 72px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a1:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 82px;
+    width: 36px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a2:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a3 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 128px;
+    width: 24px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a3:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a4 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 162px;
+    width: 36px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a4:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a5 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 208px;
+    width: 60px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a5:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a6 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 278px;
+    width: 120px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a6:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a7 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 408px;
+    width: 28px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a7:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a8 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 446px;
+    width: 50px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a8:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a9 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 506px;
+    width: 24px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a9:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a10 {
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 540px;
+    width: 60px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a10:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a11 {
+    position: absolute;
+    /* border: 1px solid red;   */
+    left: 610px;
+    width: 32px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a11:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a12 {
+    position: absolute;
+    /* border: 1px solid red;   */
+    left: 652px;
+    width: 50px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a12:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a13 {
+    position: absolute;
+    /* border: 1px solid red;   */
+    left: 712px;
+    width: 24px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a13:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a14 {
+    position: absolute;
+    /* border: 1px solid red;   */
+    left: 748px;
+    width: 24px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a14:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a15 {
+    position: absolute;
+    /* border: 1px solid red;   */
+    left: 782px;
+    width: 18px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a15:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a16 {
+    position: absolute;
+    /* border: 1px solid red;   */
+    left: 810px;
+    width: 24px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a16:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a17 {
+    position: absolute;
+    /* border: 1px solid red;   */
+    left: 844px;
+    width: 24px;
+    top: 0px;
+    padding: 0px 10px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a17:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a18 {
+    position: absolute;
+    /* border: 1px solid red;   */
+    left: 878px;
+    width: 24px;
+    top: 0px;
+    padding: 0px 0px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a18:hover {
+    text-decoration: underline;
+}
+
+.f-kuang .f-kuang-2 .a19 {
+    position: absolute;
+    /* border: 1px solid red;   */
+    left: 922px;
+    width: 36px;
+    top: 0px;
+    padding: 0px 0px 0px 0px;
+    line-height: 20px;
+    color: #000;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.f-kuang .f-kuang-2 .a19:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.footer .f-kuang .f-kuang-3 {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 120px;
+    width: 100%;
+    top: 65px;
+}
+
+
+.f-kuang .f-kuang-3 .f-kuang3-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 20px;
+    width: 100%;
+    top: 0px;
+}
+
+.f-kuang-3 .f-kuang3-1 .f-kuang-3-d1 {
+    position: absolute;
+    color: #666666;
+    /* border: 1px solid red; */
+    width: 234px;
+    left: 0px;
+    top: 0px;
+    padding: 0px 66px 0px 0px;
+}
+
+.f-kuang3-1 .f-kuang-3-d1 .a1 {
+    color: #999999;
+    /* border: 1px solid red; */
+    left: 5px;
+    position: relative;
+}
+
+.f-kuang-3 .f-kuang3-1 .a1:hover {
+    color: #999999;
+    text-decoration: underline;
+}
+
+.f-kuang-3 .f-kuang3-1 .f-kuang-3-d2 {
+    position: absolute;
+    color: #666666;
+    /* border: 1px solid red; */
+    width: 239px;
+    left: 300px;
+    top: 0px;
+    padding: 0px 66px 0px 0px;
+}
+
+.f-kuang-3 .f-kuang3-1 .f-kuang-3-d3 {
+    position: absolute;
+    color: #666666;
+    /* border: 1px solid red; */
+    width: 325px;
+    left: 605px;
+    ;
+    top: 0px;
+    padding: 0px 66px 0px 0px;
+}
+
+
+
+.f-kuang .f-kuang-3 .f-kuang3-2 {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 20px;
+    width: 100%;
+    top: 5px;
+}
+
+.f-kuang-3 .f-kuang3-2 .f-kuang-3-d1 {
+    position: absolute;
+    color: #666666;
+    /* border: 1px solid red; */
+    width: 411px;
+    left: 0px;
+    top: 0px;
+    padding: 0px 66px 0px 0px;
+}
+
+.f-kuang-3 .f-kuang3-2 .f-kuang-3-d2 {
+    position: absolute;
+    color: #666666;
+    /* border: 1px solid red; */
+    width: 344px;
+    left: 479px;
+    top: 0px;
+    padding: 0px 66px 0px 0px;
+}
+
+.f-kuang3-2 .f-kuang-3-d2 .a1 {
+    color: #999999;
+    /* border: 1px solid red; */
+    left: 5px;
+    position: relative;
+}
+
+.f-kuang-3 .f-kuang3-2 .a1:hover {
+    color: #999999;
+    text-decoration: underline;
+}
+
+.f-kuang-3 .f-kuang3-2 .f-kuang-3-d3 {
+    position: absolute;
+    color: #666666;
+    /* border: 1px solid red; */
+    left: 890px;
+    top: 0px;
+    padding: 0px 66px 0px 0px;
+}
+
+.f-kuang3-2 .f-kuang-3-d3 .a3 {
+    background: url(../image/JH.png)no-repeat;
+    color: #999999;
+    /* border: 1px solid red; */
+    left: 0px;
+    top:0px;
+    position: relative;
+    padding: 0px 0px 5px 22px;
+}
+
+.f-kuang3-2 .f-kuang-3-d3 .a3:hover {
+    color: #999999;
+    text-decoration: underline;
+}
+
+
+.f-kuang .f-kuang-3 .f-kuang3-3 {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 20px;
+    width: 100%;
+    top: 10px;
+}
+
+.f-kuang-3 .f-kuang3-3 .f-kuang-3-d1 {
+    position: absolute;
+    color: #666666;
+    /* border: 1px solid red; */
+    width: 420px;
+    left: 0px;
+    top: 0px;
+    padding: 0px 66px 0px 0px;
+}
+
+.f-kuang-3 .f-kuang3-3 .f-kuang-3-d2 {
+    position: absolute;
+    color: #666666;
+    /* border: 1px solid red; */
+    width: 238px;
+    left: 486px;
+    top: 0px;
+    padding: 0px 66px 0px 0px;
+}
+
+
+.f-kuang .f-kuang-3 .f-kuang3-4 {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 20px;
+    width: 100%;
+    top: 10px;
+}
+
+.f-kuang-3 .f-kuang3-4 .f-kuang-3-d1 {
+    position: absolute;
+    color: #666666;
+    /* border: 1px solid red; */
+    width: 341px;
+    left: 0px;
+    top: 0px;
+    padding: 0px 66px 0px 0px;
+}
+
+.f-kuang-3 .f-kuang3-4 .a1 {
+    position: absolute;
+    color: #666666;
+    /* border: 1px solid red; */
+    width: 238px;
+    left: 407px;
+    top: 0px;
+    padding: 0px 66px 0px 0px;
+}
+
+.f-kuang-3 .f-kuang3-4 .a1:hover {
+    color: #999999;
+    text-decoration: underline;
+}
+
+
+.f-kuang .f-kuang-3 .f-kuang3-5 {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 20px;
+    width: 100%;
+    top: 15px;
+    color: #999999;
+}
