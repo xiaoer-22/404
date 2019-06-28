@@ -1,0 +1,3833 @@
+input::-webkit-input-placeholder {
+    color: black;
+}
+
+.dv1 {
+    border: 1px solid #ccc;
+    background: rgb(241, 241, 241);
+}
+
+.dv1-1 {
+    /* border: 1px solid red; */
+    width: 1200px;
+    height: 28px;
+    margin: 0px auto;
+}
+
+.dv1-11 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: left;
+}
+
+.dv1-11>a {
+    color: rgb(170, 170, 170);
+}
+
+.dv1-11>a:hover {
+    color: red;
+}
+
+.dv1-11>i {
+    color: red;
+}
+
+.dv1-12 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: left;
+    margin-left: 10px;
+}
+
+.dv1-12>a {
+    color: rgb(170, 170, 170);
+}
+
+.dv1-12>a:hover {
+    color: red;
+}
+
+.dv1-12>i {
+    color: rgb(240, 204, 0);
+}
+
+.dv1-13 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: left;
+    margin-left: 10px;
+}
+
+.dv1-13>a {
+    color: rgb(170, 170, 170);
+}
+
+.dv1-13>a:hover {
+    color: red;
+}
+
+.dv1-14 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: left;
+    margin-left: 15px;
+}
+
+.dv1-14>a {
+    color: rgb(170, 170, 170);
+}
+
+.dv1-14>a:hover {
+    color: red;
+}
+
+.dv1-15 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: left;
+    margin-left: 15px;
+}
+
+.dv1-15>a {
+    color: rgb(170, 170, 170);
+}
+
+.dv1-15>a:hover {
+    color: red;
+}
+
+.dv1-16 {
+    /* border: 1px solid blue; */
+    line-height: 28px;
+    float: right;
+}
+
+.wzdh {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+}
+
+.wzdh>a {
+    color: rgb(170, 170, 170);
+}
+
+.wzdh>a:hover {
+    color: red;
+}
+
+.wzdh .i1 {
+    color: red;
+}
+
+.wzdh .wzdh-dv {
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    z-index: 10;
+    display: none;
+}
+
+.wzdh {
+    /* 过度动画效果 */
+    transition: opacity 3s ease-in;
+    position: relative;
+}
+
+.wzdh:hover {
+    background: white;
+}
+
+
+/* 过度动画效果 */
+.wzdh:hover .wzdh-dv {
+    border: 0.5px solid rgb(170, 170, 170);
+    display: block;
+    opacity: 1;
+    background: white;
+}
+
+.wzdh-ul {
+    border: 0.5px solid rgb(170, 170, 170);
+    width: 1200px;
+    height: 162px;
+    position: relative;
+}
+
+.wzdh:hover .i2 {
+    transition: all 0.5s;
+    transform: rotate(180deg);
+}
+
+.hot {
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 162px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.hot1 {
+    font-size: 17px;
+    font-weight: bold;
+    color: orange;
+    position: absolute;
+    left: 32px;
+    top: 10px;
+}
+
+.hot2 {
+    position: absolute;
+    left: 32px;
+    top: 40px;
+}
+
+.hot3 {
+    position: absolute;
+    left: 32px;
+    top: 70px;
+}
+
+.hot4 {
+    position: absolute;
+    left: 32px;
+    top: 100px;
+}
+
+.hot5 {
+    position: absolute;
+    left: 112px;
+    top: 40px;
+}
+
+.hot6 {
+    position: absolute;
+    left: 112px;
+    top: 70px;
+}
+
+.hot7 {
+    position: absolute;
+    left: 112px;
+    top: 100px;
+}
+
+.hot8 {
+    position: absolute;
+    left: 192px;
+    top: 40px;
+}
+
+.hot9 {
+    position: absolute;
+    left: 192px;
+    top: 70px;
+}
+
+.hot10 {
+    position: absolute;
+    left: 192px;
+    top: 100px;
+}
+
+.hot11 {
+    position: absolute;
+    left: 272px;
+    top: 40px;
+}
+
+.hot12 {
+    position: absolute;
+    left: 272px;
+    top: 70px;
+}
+
+.hot13 {
+    position: absolute;
+    left: 272px;
+    top: 100px;
+}
+
+.market {
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 162px;
+    position: absolute;
+    left: 400px;
+    top: 0px;
+}
+
+.market1 {
+    font-size: 17px;
+    font-weight: bold;
+    color: blue;
+    position: absolute;
+    left: 32px;
+    top: 10px;
+}
+
+.market2 {
+    position: absolute;
+    left: 32px;
+    top: 40px;
+}
+
+.market3 {
+    position: absolute;
+    left: 32px;
+    top: 70px;
+}
+
+.market4 {
+    position: absolute;
+    left: 32px;
+    top: 100px;
+}
+
+.market5 {
+    position: absolute;
+    left: 112px;
+    top: 40px;
+}
+
+.market6 {
+    position: absolute;
+    left: 112px;
+    top: 70px;
+}
+
+.market7 {
+    position: absolute;
+    left: 112px;
+    top: 100px;
+}
+
+.market8 {
+    position: absolute;
+    left: 192px;
+    top: 40px;
+}
+
+.market9 {
+    position: absolute;
+    left: 192px;
+    top: 70px;
+}
+
+.market10 {
+    position: absolute;
+    left: 192px;
+    top: 100px;
+}
+
+.market11 {
+    position: absolute;
+    left: 272px;
+    top: 40px;
+}
+
+.market12 {
+    position: absolute;
+    left: 272px;
+    top: 70px;
+}
+
+.market13 {
+    position: absolute;
+    left: 272px;
+    top: 100px;
+}
+
+.help {
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 162px;
+    position: absolute;
+    left: 800px;
+    top: 0px;
+}
+
+.help1 {
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    left: 32px;
+    top: 10px;
+}
+
+.help2 {
+    position: absolute;
+    left: 32px;
+    top: 40px;
+}
+
+.help3 {
+    position: absolute;
+    left: 32px;
+    top: 70px;
+}
+
+.help4 {
+    position: absolute;
+    left: 112px;
+    top: 40px;
+}
+
+.help5 {
+    position: absolute;
+    left: 192px;
+    top: 40px;
+}
+
+
+.sjzc {
+    /* border: 1px solid red; */
+    float: right;
+    margin-right: 15px;
+    padding: 0px 5px;
+}
+
+.sjzc:hover {
+    background: white;
+}
+
+.sjzc>a {
+    color: rgb(170, 170, 170);
+}
+
+.sjzc>a:hover {
+    color: red;
+}
+
+.sjzc .sjzc-dv {
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    z-index: 10;
+    display: none;
+}
+
+.sjzc {
+    /* 过度动画效果 */
+    transition: opacity 3s ease-in;
+    position: relative;
+}
+
+
+/* 过度动画效果 */
+.sjzc:hover .sjzc-dv {
+    border: 0.5px solid rgb(170, 170, 170);
+    display: block;
+    opacity: 1;
+    background: white;
+}
+
+.sjzc-ul {
+    border: 0.5px solid rgb(170, 170, 170);
+    width: 145px;
+    height: 175px;
+    position: relative;
+}
+
+.sjzc:hover .i2 {
+    transition: all 0.5s;
+    transform: rotate(180deg);
+}
+
+.sj1 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-weight: bold;
+}
+
+.sj2 {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+
+.sj3 {
+    position: absolute;
+    left: 10px;
+    top: 45px;
+}
+
+.sj4 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.sj5 {
+    position: absolute;
+    left: 10px;
+    top: 85px;
+}
+
+.sj6 {
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.sj7 {
+    position: absolute;
+    right: 10px;
+    top: 45px;
+}
+
+.sj8 {
+    position: absolute;
+    right: 10px;
+    top: 65px;
+}
+
+.sj9 {
+    position: absolute;
+    right: 10px;
+    top: 85px;
+}
+
+.sj10 {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+}
+
+.sj11 {
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    font-weight: bold;
+}
+
+.sj12 {
+    position: absolute;
+    left: 10px;
+    top: 140px;
+}
+
+.sj13 {
+    position: absolute;
+    right: 23px;
+    top: 140px;
+}
+
+.sj14 {
+    position: absolute;
+    right: 10px;
+    top: 150px;
+}
+
+
+
+.tbw {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+    margin-right: 15px;
+}
+
+.tbw>a {
+    color: rgb(170, 170, 170);
+}
+
+.tbw:hover {
+    background: white;
+}
+
+.tbw>a:hover {
+    color: red;
+}
+
+.sjb {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+    margin-right: 15px;
+}
+
+.sjb .i1 {
+    color: red;
+}
+
+.sjb>a {
+    color: rgb(170, 170, 170);
+}
+
+.sjb:hover {
+    background: white;
+}
+
+.sjb>a:hover {
+    color: red;
+}
+
+.l {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 6px;
+    color: rgb(170, 170, 170);
+}
+
+
+.scj {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+}
+
+.scj:hover {
+    background: white;
+}
+
+.scj>a {
+    color: rgb(170, 170, 170);
+}
+
+.scj>a:hover {
+    color: red;
+}
+
+.scj .scj-dv {
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    z-index: 10;
+    display: none;
+}
+
+.scj {
+    /* 过度动画效果 */
+    transition: opacity 3s ease-in;
+    position: relative;
+}
+
+
+/* 过度动画效果 */
+.scj:hover .scj-dv {
+    border: 0.5px solid rgb(170, 170, 170);
+    display: block;
+    opacity: 1;
+    background: white;
+}
+
+.scj-ul {
+    border: 0.5px solid rgb(170, 170, 170);
+    width: 84px;
+    height: 58px;
+    position: relative;
+}
+
+.scj:hover .i2 {
+    transition: all 0.5s;
+    transform: rotate(180deg);
+}
+
+.sc1 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.sc2 {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+
+.gwc {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+    margin-right: 15px;
+}
+
+.gwc .i1 {
+    color: red;
+}
+
+.gwc>a {
+    color: rgb(170, 170, 170);
+}
+
+.gwc:hover {
+    background: white;
+}
+
+.gwc>a:hover {
+    color: red;
+}
+
+.wdtb {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 0px 5px;
+    margin-right: 15px;
+}
+
+.wdtb:hover {
+    background: white;
+}
+
+.wdtb>a {
+    color: rgb(170, 170, 170);
+}
+
+.wdtb>a:hover {
+    color: red;
+}
+
+.wdtb .wdtb-dv {
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    z-index: 10;
+    display: none;
+}
+
+.wdtb {
+    /* 过度动画效果 */
+    transition: opacity 3s ease-in;
+    position: relative;
+}
+
+
+/* 过度动画效果 */
+.wdtb:hover .wdtb-dv {
+    border: 0.5px solid rgb(170, 170, 170);
+    display: block;
+    opacity: 1;
+    background: white;
+}
+
+.wdtb-ul {
+    border: 0.5px solid rgb(170, 170, 170);
+    width: 84px;
+    height: 58px;
+    position: relative;
+}
+
+.wdtb:hover .i2 {
+    transition: all 0.5s;
+    transform: rotate(180deg);
+}
+
+.wd1 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.wd2 {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+
+/* 上导航 */
+
+.dv2 {
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 98px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.logo1 {
+    /* border: 1px solid red; */
+    background: url(img/TB11ojWRXXXXXafaFXXXXXXXXXX-190-27.png) no-repeat;
+    float: left;
+    width: 190px;
+    height: 28px;
+    margin: 33px 0px;
+}
+
+.erweima1 {
+    float: right;
+    margin: 0px 0px;
+}
+
+.suosuo1 {
+    /* border: 1px solid red; */
+    width: 635px;
+    height: 98px;
+    position: absolute;
+    top: 0px;
+    left: 280px;
+}
+
+.ssk1 {
+    /* border: 1px solid blue; */
+    width: 630px;
+    height: 40px;
+    position: absolute;
+    left: 0px;
+    top: 28px;
+}
+
+.k1 {
+    border: 2px solid red;
+    width: 481px;
+    height: 26px;
+    font-size: 18px;
+    padding: 5px;
+    float: left;
+}
+
+.sanniu {
+    border: 1px solid red;
+    width: 133px;
+    height: 38px;
+    background: red;
+    font-size: 20px;
+    float: right;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sanniu>a {
+    color: white;
+    font-weight: bold;
+}
+
+.ssk2 {
+    /* border: 1px solid blue; */
+    width: 598px;
+    height: 33px;
+    position: absolute;
+    left: 0px;
+    top: 64px;
+}
+
+.ssk2 ul>li {
+    /* border: 1px solid red; */
+    float: left;
+    margin: 7px 5px;
+}
+
+.ssk2 ul li>a {
+    color: rgb(170, 170, 170);
+}
+
+.ssk2 ul li>a:hover {
+    color: red;
+}
+
+.dv3 {
+    /* border: 1px solid red; */
+    height: 160px;
+    background: url(img/TB1zW1rdoGF3KVjSZFoSuvmpFXa.jpg) no-repeat center;
+}
+
+.dv3-1 {
+    /* border: 1px solid black; */
+
+    width: 1200px;
+    height: 160px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.dv3-1l {
+    /* border: 1px solid red; */
+    width: 298px;
+    height: 144px;
+    position: absolute;
+    left: 0px;
+    top: 6px;
+}
+
+.dv3-1r {
+    /* border: 1px solid red; */
+    width: 241px;
+    height: 141px;
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    background: url(./img/KJLJ}I{}3_K6QQ93GA0D.png);
+}
+
+/* 横幅 */
+
+.dv4 {
+    /* border: 1px solid black; */
+    margin-top: 11px;
+}
+
+.dv4-1 {
+    border-top: 1px solid rgb(170, 170, 170);
+    width: 1200px;
+    height: 47px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.dv4-11 ul>li {
+    float: left;
+    font-size: 13px;
+    line-height: 47px;
+    margin: 0px 5px;
+}
+
+.sou2 {
+    width: 164px;
+    height: 21px;
+    background: url(./img/7GKN3Q_J7Y]LH%SE16}F4T0.png) no-repeat right;
+}
+
+.dv4-12 {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    font-size: 13px;
+    color: rgb(170, 170, 170);
+}
+
+/*  */
+
+
+.dv5-1 {
+    /* border: 1px solid rgb(170, 170, 170); */
+    width: 1200px;
+    height: 102px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.dv5-11 {
+    border: 1px solid rgb(170, 170, 170);
+    width: 1200px;
+    height: 68px;
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+}
+
+.dv5-12 {
+    border: 1px solid rgb(170, 170, 170);
+    width: 1200px;
+    height: 34px;
+    position: absolute;
+    top: 69px;
+    z-index: 10;
+}
+
+.dv5-13 {
+    width: 119px;
+    height: 102px;
+    background: rgb(245, 245, 245);
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+}
+
+.xz1 {
+    /* border: 1px solid red; */
+    position: absolute;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    top: 7px;
+    left: 12px;
+}
+
+.xz1>a {
+    color: rgb(68, 68, 68);
+}
+
+.xz8 {
+    /* border: 1px solid red; */
+    position: absolute;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    top: 7px;
+    left: 12px;
+}
+
+.xz8>a {
+    color: rgb(68, 68, 68);
+}
+
+.xz2 {
+    /* border: 1px solid red; */
+    position: absolute;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    top: 7px;
+    left: 140px;
+}
+
+.xz2>a {
+    color: rgb(68, 68, 68);
+}
+
+.xz3 {
+    /* border: 1px solid red; */
+    position: absolute;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    top: 7px;
+    left: 345px;
+}
+
+.xz3>a {
+    color: rgb(68, 68, 68);
+}
+
+.xz4 {
+    /* border: 1px solid red; */
+    position: absolute;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    top: 7px;
+    left: 550px;
+}
+
+.xz4>a {
+    color: rgb(68, 68, 68);
+}
+
+.xz5 {
+    /* border: 1px solid red; */
+    position: absolute;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    top: 7px;
+    left: 755px;
+}
+
+.xz5>a {
+    color: rgb(68, 68, 68);
+}
+
+.xz6 {
+    /* border: 1px solid red; */
+    position: absolute;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    top: 7px;
+    left: 960px;
+}
+
+.xz6>a {
+    color: rgb(68, 68, 68);
+}
+
+.xz7 {
+    /* border: 1px solid red; */
+    position: absolute;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    top: 37px;
+    left: 140px;
+}
+
+.xz7>a {
+    color: rgb(68, 68, 68);
+}
+
+.xz9 {
+    /* border: 1px solid red; */
+    position: absolute;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    top: 7px;
+    left: 140px;
+}
+
+.xz9>a {
+    color: rgb(68, 68, 68);
+}
+
+.dv6-1 {
+    /* border: 1px solid red; */
+    width: 1200px;
+    height: 36px;
+    margin: 0px auto;
+    background: rgb(246, 246, 246);
+}
+
+.dv6-11 {
+    /* border: 1px solid blue; */
+    width: 200px;
+    height: 36px;
+    float: left;
+    position: relative;
+}
+
+.dv6-11 ul>li {
+    border: 1px solid rgb(209, 209, 209);
+    float: left;
+    width: 35px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.dv6-11 ul>li :hover {
+    background: rgb(233, 233, 233);
+    color: red;
+}
+
+.dv6-11 ul {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.dv6-12 {
+    /* border: 1px solid blue; */
+    width: 130px;
+    height: 36px;
+    float: left;
+    position: relative;
+}
+
+.dv6-12 ul {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.dv6-12 ul>li {
+    border: 1px solid rgb(209, 209, 209);
+    float: left;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+.dv6-12 ul li>input {
+    width: 60px;
+}
+
+.dv6-13 {
+    /* border: 1px solid blue; */
+    width: 130px;
+    height: 36px;
+    float: left;
+    position: relative;
+}
+
+.dv6-13 ul {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.dv6-13 ul>li {
+    border: 1px solid rgb(209, 209, 209);
+    float: left;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+.dv6-13 ul li>input {
+    width: 50px;
+}
+
+.dv6-14 {
+    /* border: 1px solid blue; */
+    width: 300px;
+    height: 36px;
+    float: left;
+    position: relative;
+}
+
+.dv6-14 ul {
+    border: 1px solid rgb(209, 209, 209);
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 270px;
+}
+
+.dv6-14 ul>li {
+    float: left;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px 5px;
+}
+
+.dv6-15 {
+    /* border: 1px solid blue; */
+    width: 200px;
+    height: 36px;
+    float: left;
+    position: relative;
+}
+
+.dv6-15 ul>li {
+    border: 1px solid rgb(209, 209, 209);
+    float: left;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.dv6-15 ul>li :hover {
+    background: rgb(233, 233, 233);
+    color: red;
+}
+
+.dv6-15 ul {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+
+.dv7-1 {
+    /* border: 1px solid black; */
+    width: 1202px;
+    height: 2050px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.sp-dv1 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 13px;
+    left: 0px;
+}
+
+.sp-dv1 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv1:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv1 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv1 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv1 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv1 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv1 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv1 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv1 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv1 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv1 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv1 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+
+.sp-dv3 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 13px;
+    left: 244px;
+}
+
+.sp-dv3 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv3:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv3 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv3 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv3 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv3 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv3 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv3 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv3 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv3 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv3 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv3 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv4 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 13px;
+    left: 488px;
+}
+
+.sp-dv4 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv4:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv4 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv4 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv4 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv4 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv4 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv4 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv4 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv4 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv4 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv4 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv5 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 13px;
+    left: 732px;
+}
+
+.sp-dv5 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv5:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv5 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv5 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv5 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv5 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv5 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv5 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv5 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv5 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv5 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv5 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv6 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 13px;
+    left: 975px;
+}
+
+.sp-dv6 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv6:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv6 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv6 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv6 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv6 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv6 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv6 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv6 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv6 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv6 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv6 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv11 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 423px;
+    left: 0px;
+}
+
+.sp-dv11 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv11:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv11 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv11 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv11 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv11 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv11 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv11 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv11 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv11 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv11 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv11 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+
+.sp-dv13 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 423px;
+    left: 244px;
+}
+
+.sp-dv13 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv13:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv13 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv13 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv13 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv13 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv13 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv13 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv13 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv13 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv13 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv13 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv14 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 423px;
+    left: 488px;
+}
+
+.sp-dv14 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv14:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv14 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv14 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv14 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv14 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv14 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv14 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv14 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv14 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv14 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv14 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv15 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 423px;
+    left: 732px;
+}
+
+.sp-dv15 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv15:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv15 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv15 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv15 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv15 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv15 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv15 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv15 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv15 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv15 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv15 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv16 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 423px;
+    left: 975px;
+}
+
+.sp-dv16 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv16:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv16 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv16 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv16 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv16 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv16 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv16 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv16 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv16 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv16 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv16 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv21 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 833px;
+    left: 0px;
+}
+
+.sp-dv21 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv21:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv21 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv21 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv21 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv21 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv21 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv21 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv21 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv21 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv21 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv21 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+
+.sp-dv23 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 833px;
+    left: 244px;
+}
+
+.sp-dv23 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv23:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv23 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv23 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv23 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv23 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv23 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv23 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv23 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv23 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv23 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv23 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv24 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 833px;
+    left: 488px;
+}
+
+.sp-dv24 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv24:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv24 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv24 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv24 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv24 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv24 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv24 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv24 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv24 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv24 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv24 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv25 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 833px;
+    left: 732px;
+}
+
+.sp-dv25 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv25:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv25 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv25 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv25 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv25 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv25 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv25 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv25 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv25 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv25 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv25 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv26 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 833px;
+    left: 975px;
+}
+
+.sp-dv26 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv26:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv26 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv26 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv26 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv26 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv26 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv26 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv26 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv26 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv26 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv26 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv31 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 1243px;
+    left: 0px;
+}
+
+.sp-dv31 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv31:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv31 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv31 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv31 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv31 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv31 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv31 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv31 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv31 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv31 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv31 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+
+.sp-dv33 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 1243px;
+    left: 244px;
+}
+
+.sp-dv33 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv33:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv33 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv33 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv33 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv33 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv33 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv33 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv33 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv33 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv33 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv33 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv34 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 1243px;
+    left: 488px;
+}
+
+.sp-dv34 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv34:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv34 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv34 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv34 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv34 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv34 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv34 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv34 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv34 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv34 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv34 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv35 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 1243px;
+    left: 732px;
+}
+
+.sp-dv35 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv35:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv35 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv35 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv35 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv35 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv35 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv35 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv35 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv35 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv35 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv35 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv36 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 1243px;
+    left: 975px;
+}
+
+.sp-dv36 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv36:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv36 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv36 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv36 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv36 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv36 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv36 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv36 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv36 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv36 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv36 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv41 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 1653px;
+    left: 0px;
+}
+
+.sp-dv41 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv41:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv41 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv41 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv41 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv41 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv41 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv41 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv41 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv41 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv41 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv41 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+
+.sp-dv43 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 1653px;
+    left: 244px;
+}
+
+.sp-dv43 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv43:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv43 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv43 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv43 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv43 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv43 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv43 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv43 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv43 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv43 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv43 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv44 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 1653px;
+    left: 488px;
+}
+
+.sp-dv44 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv44:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv44 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv44 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv44 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv44 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv44 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv44 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv44 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv44 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv44 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv44 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv45 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 1653px;
+    left: 732px;
+}
+
+.sp-dv45 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv45:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv45 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv45 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv45 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv45 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv45 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv45 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv45 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv45 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv45 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv45 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+.sp-dv46 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 385px;
+    position: absolute;
+    top: 1653px;
+    left: 975px;
+}
+
+.sp-dv46 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sp-dv46:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.sp-dv46 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.sp-dv46 .spt2 {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 230px;
+    left: 7px;
+}
+
+.sp-dv46 .jiage {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.sp-dv46 .jiage>b {
+    font-size: 14px;
+}
+
+.sp-dv46 .spname {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.sp-dv46 .dpname {
+    position: absolute;
+    top: 325px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.sp-dv46 .xiaoliang {
+    position: absolute;
+    top: 355px;
+    right: 0px;
+
+}
+
+.sp-dv46 .xiaoliang ul>li {
+    height: 30px;
+    float: left;
+    border-right: 1px solid rgb(233, 233, 233);
+    padding: 0px 12px;
+    line-height: 30px;
+    color: #cccccc;
+}
+
+.sp-dv46 .xiaoliang>ul {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sp-dv46 .xiaoliang li>b {
+    color: rgb(255, 179, 39);
+}
+
+
+
+
+.dv8-1 {
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 50px;
+    margin: 0px auto;
+}
+
+.fanye {
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 40px;
+    margin: 40px auto;
+    line-height: 40px;
+    position: relative;
+}
+
+.fanye ul>li {
+    float: left;
+
+}
+
+.fanye ul li>a {
+    border: 1px solid rgb(170, 170, 170);
+    padding: 7px 12px;
+    font-size: 15px;
+    color: rgb(0, 71, 153);
+}
+
+.fanye ul>li :hover {
+    background: rgb(235, 235, 235);
+}
+
+.mao {
+    position: absolute;
+    top: -23px;
+    left: 227px;
+}
+
+.tiaoye {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 15px;
+}
+
+.tiaoye>input {
+    width: 20px;
+    height: 20px;
+}
+
+.tiaoye>a {
+    background: rgb(230, 230, 230);
+    padding: 3px 5px;
+}
+
+.dv9-1 {
+    border: 1px solid rgb(230, 230, 230);
+    width: 1200px;
+    height: 30px;
+    margin: 0px auto;
+}
+
+.dv9-1 ul>li {
+    /* border: 1px solid red; */
+    float: left;
+    margin: 0px 10px;
+    line-height: 30px;
+}
+
+.dv9-1 ul li>a:hover {
+    color: red;
+}
+
+.dv10-1 {
+    /* border: 1px solid red; */
+    width: 1200px;
+    height: 410px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.dianputuijian {
+    position: absolute;
+    /* border: 1px solid blue; */
+    font-size: 17px;
+    font-weight: bold;
+    top: 8px;
+    left: 3px;
+}
+
+.gengduo {
+    position: absolute;
+    /* border: 1px solid blue; */
+    font-size: 14px;
+    font-weight: bold;
+    top: 8px;
+    right: 3px;
+}
+
+
+
+.dp-dv1 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 320px;
+    position: absolute;
+    top: 33px;
+    left: 0px;
+}
+
+.dp-dv1 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.dp-dv1:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.dp-dv1 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.dp-dv1 .jiage {
+    position: absolute;
+    top: 235px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.dp-dv1 .jiage>b {
+    font-size: 14px;
+}
+
+.dp-dv1 .spname {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.dp-dv1 .dpname {
+    position: absolute;
+    top: 295px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.dp-dv3 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 320px;
+    position: absolute;
+    top: 33px;
+    left: 244px;
+}
+
+.dp-dv3 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.dp-dv3:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.dp-dv3 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.dp-dv3 .jiage {
+    position: absolute;
+    top: 235px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.dp-dv3 .jiage>b {
+    font-size: 14px;
+}
+
+.dp-dv3 .spname {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.dp-dv3 .dpname {
+    position: absolute;
+    top: 295px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.dp-dv4 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 320px;
+    position: absolute;
+    top: 33px;
+    left: 488px;
+}
+
+.dp-dv4 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.dp-dv4:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.dp-dv4 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+
+.dp-dv4 .jiage {
+    position: absolute;
+    top: 235px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.dp-dv4 .jiage>b {
+    font-size: 14px;
+}
+
+.dp-dv4 .spname {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.dp-dv4 .dpname {
+    position: absolute;
+    top: 295px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.dp-dv5 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 320px;
+    position: absolute;
+    top: 33px;
+    left: 732px;
+}
+
+.dp-dv5 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.dp-dv5:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.dp-dv5 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+
+.dp-dv5 .jiage {
+    position: absolute;
+    top: 235px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.dp-dv5 .jiage>b {
+    font-size: 14px;
+}
+
+.dp-dv5 .spname {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.dp-dv5 .dpname {
+    position: absolute;
+    top: 295px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.dp-dv6 {
+    border: 1px solid rgb(233, 233, 233);
+    width: 228px;
+    height: 320px;
+    position: absolute;
+    top: 33px;
+    left: 975px;
+}
+
+.dp-dv6 .sp-dv2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.dp-dv6:hover .sp-dv2 {
+    border: 3px solid red;
+}
+
+.dp-dv6 .spt1 {
+    text-align: center;
+    margin: 8px auto;
+}
+
+.dp-dv6 .jiage {
+    position: absolute;
+    top: 235px;
+    left: 7px;
+    color: red;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+.dp-dv6 .jiage>b {
+    font-size: 14px;
+}
+
+.dp-dv6 .spname {
+    position: absolute;
+    top: 275px;
+    left: 7px;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.dp-dv6 .dpname {
+    position: absolute;
+    top: 295px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #bbbbbb;
+}
+
+.dv11 {
+    width: 100%;
+    height: 110px;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.dv11-1 {
+    width: 1200px;
+    height: 80px;
+    background: rgb(236, 236, 236);
+    margin: 0px auto;
+    position: relative;
+}
+
+.xiassk {
+    /* border: 1px solid blue; */
+    width: 630px;
+    height: 40px;
+    position: absolute;
+    left: 285px;
+    top: 24px;
+}
+
+.xiassk .k1 {
+    border: 2px solid red;
+    width: 481px;
+    height: 26px;
+    font-size: 18px;
+    padding: 5px;
+    float: left;
+}
+
+.xiassk .sanniu {
+    border: 1px solid red;
+    width: 133px;
+    height: 38px;
+    background: red;
+    font-size: 20px;
+    float: right;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.xiassk .sanniu>a {
+    color: white;
+    font-weight: bold;
+}
