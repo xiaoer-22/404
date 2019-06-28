@@ -1,6 +1,7 @@
 .OF {
+    position: absolute;
     /* border: 1px solid red; */
-    width: 1090px;
+    width: 100%;
     height: 100%;
     z-index: 0;
     padding: 0px 0px;
@@ -8,282 +9,589 @@
 
 
 
-.header {
+.OF .WK {
+    position: relative;
     /* border: 1px solid red; */
-    height: 90px;
-    width: 100%;
-    position: absolute;
-    padding: 0px 0px;
-}
-
-.header .h-kuang {
-    /* border: 1px solid red; */
-    height: 90px;
-    width: 1190px;
+    width: 990px;
+    height: 750px;
+    z-index: 1;
     margin: auto;
-    position: relative;
-}
-
-.h-kuang .DLJM-logo {
-    /* border: 1px solid red; */
-    position: relative;
-    padding: 30px 0px;
-    width: 190px;
 }
 
 
 
-.mainbody {
-    /* border: 1px solid red; */
-    position: absolute;
-    top: 90px;
-    width: 100%;
-    height: 600px;
-    background-color: #70CEF0;
-}
-.mainbody .m-kuang {
-    /* border: 1px solid red; */
-    height: 90px;
-    width: 1190px;
-    margin: auto;
-    position: relative;
-}
-
-.mainbody .m-kuang-1 {
+.OF .WK .NK1 {
     position: absolute;
     /* border: 1px solid red; */
-    height: 600px;
-    width: 100%;
-
-    z-index: 1
-}
-
-.mainbody .m-kuang-2 {
-    position: relative;
-    /* border: 1px solid red; */
-    height: 600px;
-    background: url(../image/beijing.jpg) no-repeat center;
-    z-index: 2;
-}
-
-.mainbody .m-kuang-2 .m-denglu {
-    position: relative;
-    /* border: 1px solid red; */
-    width: 351px;
-    height: 407px;
-    left: 60%;
-    top: 91px;
-    z-index: 3;
-    background-color: white;
-}
-
-.m-denglu .m-denglu1 {
-    position: relative;
-    border: 1px solid red;
-    height: 20px;
-    width: 120px;
-    left: 20px;
-
-
-}
-
-.m-denglu .m-denglu-box {
-    position: absolute;
-    /* border: 1px solid red; */
-    height: 300px;
-    width: 291px;
-    left: 30px;
-    top: 48px;
-}
-
-
-
-.m-denglu .m-denglu-box .box1 {
-    position: absolute;
-    /* border: 1px solid red; */
-    height: 18px;
-    line-height: 24px;
-    font-size: 16px;
-    color: #3c3c3c;
-    margin-top: 0px;
-    padding-bottom: 8px;
-    font-weight: 700;
-}
-
-
-
-.m-denglu .m-denglu-box .box2 {
-    position: absolute;
-    /* border: 1px solid red; */
-    height: 46px;
-    width: 100%;
-    top: 54px;
-    left: 0px;
-    /* padding: 0px; */
-}
-
-.m-denglu-box .box2 .box2-1 {
-    position: relative;
-    padding: 0px;
-    /* border: 1px solid rgb(173, 90, 90); */
-    background-color: #DDDDDD;
-    height: 50px;
-    width: 49px;
-    z-index: 5;
-}
-
-.m-denglu-box .box2 .box2-1 .HY {
-    position: relative;
-    padding: 12px 16px 12px 15px;
-    z-index: 6;
-}
-
-.m-denglu-box .box2 .box2-2 {
-    position: absolute;
-    padding: 0px;
-    /* border: 1px solid red; */
-    height: 58px;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-}
-
-.box2 .box2-2 .inp1 {
-    position: relative;
-    padding: 6px 12px 6px 57px;
-    /* border: 1px solid red; */
-    height: 34px;
-    width: 219px;
-    left: 0px;
-    right: 0px;
-    color: #999999;
-}
-
-
-
-.m-denglu .m-denglu-box .box3 {
-    position: absolute;
-    /* border: 1px solid red; */
-    height: 46px;
-    width: 100%;
-    top: 130px;
-    left: 0px;
-}
-
-.m-denglu-box .box3 .box3-1 {
-    position: relative;
-    padding: 0px;
-    /* border: 1px solid rgb(173, 90, 90); */
-    background-color: #DDDDDD;
+    width: 990px;
     height: 48px;
-    width: 48px;
-    z-index: 5;
+    z-index: 2;
+    left: 0px;
 }
 
-.m-denglu-box .box3 .box3-1 .MM {
+.WK .NK1 .NK1-1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 160px;
+    height: 48px;
+    z-index: 3;
+    left: 0px;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+
+.WK .NK1 .NK1-2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 165px;
+    height: 48px;
+    z-index: 3;
+    left: 160px;
+    border-bottom: 2px solid #FF0036;
+}
+
+.NK1 .NK1-2 .NK1-2-1 {
     position: relative;
-    padding: 12px 16px 12px 15px;
-    z-index: 6;
-}
-
-.m-denglu-box .box3 .box3-2 {
-    position: absolute;
-    padding: 0px;
     /* border: 1px solid red; */
-    height: 58px;
-    width: 100%;
-    left: 0px;
-    top: 0px;
+    width: 120px;
+    height: 30px;
+    z-index: 4;
+    margin: auto;
+    top: 8px;
 }
 
-.box3 .box3-2 .inp2 {
+.NK1-2 .NK1-2-1 .NK1-2-1-1 {
     position: relative;
-    padding: 6px 12px 6px 57px;
     /* border: 1px solid red; */
-    height: 32px;
-    width: 219px;
-    color: #999999;
-    left: 0px;
-    top: 0px;
-}
-
-
-
-.m-denglu .m-denglu-box .box4 {
-    position: absolute;
-    /* border: 1px solid red; */
-    height: 40px;
-    width: 100%;
-    font-weight: 700;
-    left: 0px;
-    top: 195px;
-    background-color: #ff0036;
-    font-size: 18px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 3px;
-}
-
-.m-denglu .m-denglu-box .box4:hover {
-    position: absolute;
-    height: 40px;
-    width: 100%;
-    font-weight: 700;
-    left: 0px;
-    top: 195px;
-    background-color: #ff335e;
-    font-size: 18px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 3px;
-}
-
-.m-denglu-box .box4-1 {
-    color: rgb(255, 255, 255);
-}
-
-
-
-.m-denglu .m-denglu-box .box5 {
-    position: absolute;
-    /* border: 1px solid red; */
+    width: 25px;
     height: 25px;
-    width: 100%;
-    top: 260px;
+    z-index: 5;
+    background-color: #FF0036;
+    border-radius: 100%;
 }
 
-.m-denglu-box .box5 .a1 {
-    position: absolute;
-    /* border: 1px solid red; */
-    right: 130px;
-    width: 50px;
-    top: 0px;
-    padding: 0 5px;
+.NK1-2-1 .NK1-2-1-1 .wz1 {
+    position: relative;
+    z-index: 6;
     line-height: 25px;
-    font-size: 12px;
+    font-size: 24px;
+    left: 5px;
+    color: #ffffff;
 }
 
-.m-denglu-box .box5 .a2 {
+.NK1-2 .NK1-2-1 .NK1-2-1-2 {
     position: absolute;
     /* border: 1px solid red; */
-    right: 60px;
-    width: 60px;
-    top: 0px;
-    padding: 0 5px;
+    width: 85px;
+    height: 20px;
+    z-index: 5;
+    right: 8px;
+    top: 5px;
+    bottom: 2px;
+    font-size: 17px;
+    font-family: SimHei;
+}
+
+
+.WK .NK1 .NK1-3 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 180px;
+    height: 48px;
+    z-index: 3;
+    left: 325px;
+    border-bottom: 2px solid #FF0036;
+}
+
+.NK1 .NK1-3 .NK1-3-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 133px;
+    height: 30px;
+    z-index: 4;
+    margin: 0px 7px;
+    top: 8px;
+}
+
+.NK1-3 .NK1-3-1 .NK1-3-1-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+    z-index: 5;
+    background-color: #FF0036;
+    border-radius: 100%;
+}
+
+.NK1-3-1 .NK1-3-1-1 .wz2 {
+    position: relative;
+    z-index: 6;
     line-height: 25px;
-    font-size: 12px;
+    font-size: 24px;
+    left: 5px;
+    color: #ffffff;
 }
 
-.m-denglu-box .box5 .a3 {
+.NK1-3 .NK1-3-1 .NK1-3-1-2 {
     position: absolute;
     /* border: 1px solid red; */
+    width: 102px;
+    height: 20px;
+    z-index: 5;
     right: 0px;
-    width: 50px;
-    top: 0px;
-    padding: 0 5px;
+    top: 4px;
+    bottom: 2px;
+    font-size: 17px;
+    font-family: SimHei;
+}
+
+
+.WK .NK1 .NK1-4 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 165px;
+    height: 48px;
+    z-index: 3;
+    left: 490px;
+    border-bottom: 2px solid #FF0036;
+}
+
+.NK1 .NK1-4 .NK1-4-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 133px;
+    height: 30px;
+    z-index: 4;
+    margin: auto;
+    top: 8px;
+}
+
+.NK1-4 .NK1-4-1 .NK1-4-1-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+    z-index: 5;
+    background-color: #FF0036;
+    border-radius: 100%;
+}
+
+.NK1-4-1 .NK1-4-1-1 .wz3 {
+    position: relative;
+    z-index: 6;
     line-height: 25px;
+    font-size: 24px;
+    left: 5px;
+    color: #ffffff;
+}
+
+.NK1-4 .NK1-4-1 .NK1-4-1-2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 102px;
+    height: 20px;
+    z-index: 5;
+    right: 0px;
+    top: 4px;
+    bottom: 2px;
+    font-size: 17px;
+    font-family: SimHei;
+}
+
+
+
+.WK .NK1 .NK1-5 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 165px;
+    height: 48px;
+    z-index: 3;
+    left: 655px;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+
+.NK1 .NK1-5 .NK1-5-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 133px;
+    height: 30px;
+    z-index: 4;
+    margin: 0px 24px;
+    top: 8px;
+}
+
+.NK1-5 .NK1-5-1 .NK1-5-1-1 {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+    z-index: 5;
+    background-color: #cccccc;
+    border-radius: 100%;
+}
+
+.NK1-5-1 .NK1-5-1-1 .wz4 {
+    position: relative;
+    z-index: 6;
+    line-height: 25px;
+    font-size: 24px;
+    left: 3px;
+    color: #ffffff;
+}
+
+.NK1-5 .NK1-5-1 .NK1-5-1-2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 102px;
+    height: 20px;
+    z-index: 5;
+    right: 0px;
+    top: 4px;
+    bottom: 2px;
+    font-size: 17px;
+    font-family: SimHei;
+
+}
+
+
+
+.WK .NK1 .NK1-6 {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 167px;
+    height: 48px;
+    z-index: 3;
+    right: 0px;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+
+
+
+.OF .WK .NK2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 50px 0px 0px 0px;
+    top: 50px;
+    width: 987px;
+    height: 600px;
+}
+
+.WK .NK2 .NK2-1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 12px 0px 0px 0px;
+    top: 50px;
+    width: 987px;
+    height: 588px;
+}
+
+.NK2 .NK2-1 .NK2-1-1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 30px 0px;
+    top: 50px;
+    width: 987px;
+    height: 490px;
+}
+
+
+
+.NK2-1 .NK2-1-1 .NK2-1-1-1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 11px 0 11px 260px;
+    margin: 0px 130px 0px 0px;
+    line-height: 37px;
+    width: 600px;
+    height: 37px;
+    z-index: 4;
+    top: 30px;
+}
+
+.NK2-1-1 .NK2-1-1-1 .wb1 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 10px 0 10px 260px;
+    line-height: 37px;
+    width: 240px;
+    left: 0px;
+    z-index: 5;
+    margin: 0px 20px 0px 0px;
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+    height: 37px;
+    top: 0px;
+    font-weight: 700;
+}
+
+.NK2-1-1 .NK2-1-1-1 .inp1 {
+    position: absolute;
+    padding: 9px;
+    /* border: 1px solid red; */
+    height: 14px;
+    width: 222px;
+    left: 260px;
+    top: 14px;
+    color: #999999;
+    font-size: 15px;
+}
+
+.NK2-1-1 .NK2-1-1-1 .inp1:focus {
+    position: absolute;
+    padding: 9px;
+    /* border: 1px solid red; */
+    height: 14px;
+    width: 222px;
+    left: 260px;
+    top: 14px;
+    color: #595959;
+    font-size: 15px;
+    border-style: solid;
+    border-color: #4293FD;
+}
+
+
+
+.NK2-1 .NK2-1-1 .NK2-1-1-2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 11px 0 11px 260px;
+    margin: 0px 130px 0px 0px;
+    line-height: 37px;
+    width: 600px;
+    height: 37px;
+    z-index: 4;
+    top: 90px;
+}
+
+.NK2-1-1 .NK2-1-1-2 .wb2 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 10px 0 10px 260px;
+    line-height: 37px;
+    width: 240px;
+    left: 0px;
+    z-index: 5;
+    margin: 0px 20px 0px 0px;
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+    height: 37px;
+    top: 0px;
+    font-weight: 700;
+}
+
+.NK2-1-1 .NK2-1-1-2 .inp2 {
+    position: absolute;
+    padding: 9px;
+    /* border: 1px solid red; */
+    height: 14px;
+    width: 222px;
+    left: 260px;
+    top: 14px;
+    color: #999999;
+    font-size: 15px;
+}
+
+.NK2-1-1 .NK2-1-1-2 .inp2:focus {
+    position: absolute;
+    padding: 9px;
+    /* border: 1px solid red; */
+    height: 14px;
+    width: 222px;
+    left: 260px;
+    top: 14px;
+    color: #595959;
+    font-size: 15px;
+    border-style: solid;
+    border-color: #4293FD;
+}
+
+
+
+.NK2-1 .NK2-1-1 .NK2-1-1-3 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 11px 0 11px 260px;
+    margin: 0px 130px 0px 0px;
+    line-height: 37px;
+    width: 600px;
+    height: 37px;
+    z-index: 4;
+    top: 150px;
+}
+
+.NK2-1-1 .NK2-1-1-3 .wb3 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 10px 0 10px 260px;
+    line-height: 37px;
+    width: 240px;
+    left: 0px;
+    z-index: 5;
+    margin: 0px 20px 0px 0px;
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+    height: 37px;
+    top: 0px;
+    font-weight: 700;
+}
+
+.NK2-1-1 .NK2-1-1-3 .xlk1 {
+    position: absolute;
+    border: 1px solid #aaaaaa;
+    height: 20px;
+    width: 90px;
+    top: 20px;
+}
+
+
+
+.NK2-1-1 .NK2-1-1-3 .inp3 {
+    position: absolute;
+    padding: 9px;
+    /* border: 1px solid red; */
+    height: 14px;
+    width: 122px;
+    left: 360px;
+    top: 14px;
+    color: #999999;
     font-size: 12px;
 }
+
+.NK2-1-1 .NK2-1-1-3 .inp3:focus {
+    position: absolute;
+    padding: 9px;
+    /* border: 1px solid red; */
+    height: 14px;
+    width: 122px;
+    left: 360px;
+    top: 14px;
+    color: #595959;
+    font-size: 12px;
+    border-style: solid;
+    border-color: #4293FD;
+}
+
+
+
+.NK2-1 .NK2-1-1 .NK2-1-1-4 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 11px 0 11px 260px;
+    margin: 0px 130px 0px 0px;
+    line-height: 37px;
+    width: 600px;
+    height: 37px;
+    z-index: 4;
+    top: 210px;
+}
+
+.NK2-1-1 .NK2-1-1-4 .wb4 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 10px 0 10px 260px;
+    line-height: 37px;
+    width: 240px;
+    left: 0px;
+    z-index: 5;
+    margin: 0px 20px 0px 0px;
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+    height: 37px;
+    top: 0px;
+    font-weight: 700;
+}
+
+.NK2-1-1 .NK2-1-1-4 .inp4 {
+    position: absolute;
+    padding: 9px;
+    /* border: 1px solid red; */
+    height: 14px;
+    width: 135px;
+    left: 260px;
+    top: 14px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.NK2-1-1 .NK2-1-1-4 .inp4:focus {
+    position: absolute;
+    padding: 9px;
+    /* border: 1px solid red; */
+    height: 14px;
+    width: 135px;
+    left: 260px;
+    top: 14px;
+    color: #595959;
+    font-size: 12px;
+    border-style: solid;
+    border-color: #4293FD;
+}
+
+
+
+.NK2-1 .NK2-1-1 .NK2-1-1-5 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 11px 0 11px 260px;
+    margin: 0px 130px 0px 0px;
+    line-height: 37px;
+    width: 600px;
+    height: 37px;
+    z-index: 4;
+    top: 290px;
+}
+
+.NK2-1-1 .NK2-1-1-5 .wb5 {
+    line-height: 37px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.NK2-1-1-5 .wb5 .NK2-3-3-1 {
+    position: absolute;
+    z-index: 4;
+    /* border: 1px solid red; */
+    width: 190px;
+    height: 37px;
+    background: #00a3d2;
+    border-radius: 3px;
+}
+
+
+
+.NK2-1 .NK2-1-1 .NK2-1-1-6 {
+    position: absolute;
+    /* border: 1px solid red; */
+    padding: 10px 0px 10px 260px;
+    margin: 0px 130px 0px 0px;
+    line-height: 16px;
+    width: 600px;
+    height: 16px;
+    z-index: 4;
+    top: 351px;
+}
+
+.NK2-1-1 .NK2-1-1-6 .wb7 {
+    position: absolute;
+    color: #09c;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.NK2-1-1 .NK2-1-1-6 .wb7:hover {
+    text-decoration: underline;
+}
+
+
+
 
 
 
@@ -301,6 +609,7 @@
     height: 100%;
     width: 1190px;
     margin: auto;
+    padding: 0px 0px 0px 190px;
 }
 
 .footer .f-kuang .f-kuang-1 {
@@ -912,11 +1221,11 @@
 }
 
 .f-kuang3-2 .f-kuang-3-d3 .a3 {
-    background: url(../image/JH.png)no-repeat;
+    background: url(image/JH.png)no-repeat;
     color: #999999;
     /* border: 1px solid red; */
     left: 0px;
-    top:0px;
+    top: 0px;
     position: relative;
     padding: 0px 0px 5px 22px;
 }
