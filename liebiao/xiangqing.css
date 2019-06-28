@@ -2370,3 +2370,380 @@
     left: 12px;
     color: #f4c985;
 }
+
+
+/* 右边导航栏 */
+.right-nav {
+    position: fixed;
+    width: 35px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: #000000;
+    z-index: 20;
+}
+
+.right-nav-box1 {
+    position: absolute;
+    height: 320px;
+    width: 35px;
+    margin-top: 210px;
+    background: #000;
+    z-index: 15;
+}
+
+/* vip导航 */
+.vip {
+    font-size: 15px;
+    padding: 4px 6px;
+    color: white;
+}
+
+.vip-box {
+    position: relative;
+}
+
+.vip:hover {
+    color: white;
+    background: #FF0036;
+}
+
+.vip-lx {
+    position: absolute;
+    width: 90px;
+    height: 28px;
+    top: -4px;
+    right: 34px;
+    background: #333333;
+    line-height: 28px;
+    display: none;
+}
+
+.vip-lx a {
+    margin-left: 22px;
+    color: white;
+}
+
+.vip-box:hover .vip-lx {
+    display: block;
+}
+
+/* 右边底部导航栏 */
+.right-nav-box2 {
+    position: absolute;
+    height: 100px;
+    width: 35px;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* 分割线导航 */
+.nav-xian1 {
+    position: absolute;
+    width: 25px;
+    height: 0;
+    border-top: 1px solid rgb(102, 102, 102);
+    top: 30px;
+    left: 4px;
+}
+
+.nav-xian2 {
+    position: absolute;
+    width: 25px;
+    height: 0;
+    border-top: 1px solid rgb(102, 102, 102);
+    top: 130px;
+    left: 4px;
+}
+
+/* 购物车导航 */
+.nav-shopcar-box {
+    position: absolute;
+    top: 30px;
+}
+
+.nav-shopcar {
+    color: white;
+}
+
+.nav-shopcar i {
+    padding: 0px 11px;
+    padding-top: 18px;
+    color: #FF0036;
+}
+
+.nav-shopcar div {
+    padding: 1px 11px;
+}
+
+.nav-shopcar .che {
+    padding-bottom: 15px;
+}
+
+.nav-shopcar:hover,
+.nav-shopcar:hover i,
+.nav-shopcar:hover div {
+    background: #FF0036;
+    color: white;
+}
+
+/* ￥导航 */
+.nav-rmb {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+}
+
+.nav-rmb a {
+    color: white;
+}
+
+.nav-rmb a>i {
+    padding: 5px 10px;
+}
+
+.nav-rmb:hover {
+    color: white;
+    background: #FF0036;
+}
+
+.rmb-lx {
+    position: absolute;
+    width: 90px;
+    height: 34px;
+    top: 0px;
+    right: 34px;
+    background: #333333;
+    line-height: 34px;
+    display: none;
+}
+
+.rmb-lx a {
+    margin-left: 12px;
+    color: white;
+}
+
+.nav-rmb:hover .rmb-lx {
+    display: block;
+}
+
+/* 五角星导航 */
+.nav-star {
+    position: absolute;
+    top: 180px;
+}
+
+.nav-star a {
+    color: white;
+}
+
+.nav-star a>i {
+    padding: 4px 6px;
+}
+
+.nav-star:hover {
+    background: #FF0036;
+    color: white;
+}
+
+.star-lx {
+    position: absolute;
+    width: 90px;
+    height: 34px;
+    top: 0px;
+    right: 34px;
+    background: #333333;
+    line-height: 34px;
+    display: none;
+}
+
+.star-lx a {
+    margin-left: 12px;
+    color: white;
+}
+
+.nav-star:hover .star-lx {
+    display: block;
+}
+
+/* 钟导航 */
+.nav-clock {
+    position: absolute;
+    top: 225px;
+}
+
+.nav-clock a {
+    color: white;
+}
+
+.nav-clock a>i {
+    padding: 4px 7px;
+}
+
+.nav-clock:hover {
+    background: #FF0036;
+    color: white;
+}
+
+.clock-lx {
+    position: absolute;
+    width: 90px;
+    height: 34px;
+    top: 0px;
+    right: 34px;
+    background: #333333;
+    line-height: 34px;
+    display: none;
+}
+
+.clock-lx a {
+    margin-left: 12px;
+    color: white;
+}
+
+.nav-clock:hover .clock-lx {
+    display: block;
+}
+
+/* 充值导航 */
+.nav-chon {
+    position: absolute;
+    top: 270px;
+}
+
+.nav-chon .chon1 span {
+    color: white;
+    font-size: 18px;
+    padding: 4px 8px;
+}
+
+.nav-chon:hover span {
+    background: #FF0036;
+}
+
+.chon-lx {
+    position: absolute;
+    width: 90px;
+    height: 32px;
+    top: -3px;
+    right: 34px;
+    background: #333333;
+    line-height: 30px;
+    display: none;
+}
+
+.chon-lx a {
+    margin-left: 12px;
+    color: white;
+}
+
+.nav-chon:hover .chon-lx {
+    display: block;
+}
+
+/* 用户反馈导航栏 */
+.nav-fankui {
+    position: absolute;
+    top: 4px;
+}
+
+.nav-fankui a {
+    color: white;
+}
+
+.nav-fankui a>i {
+    padding: 8px 10px;
+}
+
+.nav-fankui:hover {
+    background: #FF0036;
+    color: white;
+}
+
+.fankui-lx {
+    position: absolute;
+    width: 90px;
+    height: 32px;
+    top: -1px;
+    right: 34px;
+    background: #333333;
+    line-height: 30px;
+    display: none;
+}
+
+.fankui-lx a {
+    margin-left: 12px;
+    color: white;
+}
+
+.nav-fankui:hover .fankui-lx {
+    display: block;
+}
+
+/* 二维码导航栏 */
+.nav-qr {
+    position: absolute;
+    top: 38px;
+}
+
+.nav-qr a>i {
+    color: white;
+    padding: 8px 11px;
+}
+
+.nav-qr:hover i {
+    background: #FF0036;
+    color: white;
+}
+
+.qr-box {
+    position: absolute;
+    width: 128px;
+    height: 157px;
+    top: -128px;
+    right: 35px;
+    display: none;
+}
+
+.nav-qr:hover .qr-box {
+    display: block;
+}
+
+/* 返回顶部导航栏 */
+.nav-top {
+    position: absolute;
+    bottom: 5px;
+}
+
+.nav-top a {
+    color: white;
+}
+
+.nav-top a>i {
+    padding: 8px 10px;
+}
+
+.nav-top:hover {
+    background: #FF0036;
+    color: white;
+}
+
+.top-lx {
+    position: absolute;
+    width: 90px;
+    height: 32px;
+    top: -1px;
+    right: 34px;
+    background: #333333;
+    line-height: 30px;
+    display: none;
+}
+
+.top-lx a {
+    margin-left: 12px;
+    color: white;
+}
+
+.nav-top:hover .top-lx {
+    display: block;
+}
