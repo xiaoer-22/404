@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0px;
+    visibility: hidden;
+    clear: both;
+}
