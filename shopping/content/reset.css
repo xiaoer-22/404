@@ -1,0 +1,93 @@
+/*重置样式文件; 可扩展的！*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置整个网站的字体风格 */
+body {
+    background: #fff;
+    color: #333;
+    font-size: 12px;
+    /* font-family: "SimSun", "宋体", "Arial Narrow"; */
+    font-family: "微软雅黑";
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover {
+    color: #c00;
+}
+
+/* 设置表格边框一像素 */
+table {
+    border-collapse: collapse;
+}
+
+input::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ccc;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ccc;
+}
+
+/* 取消浏览器自带的默认样式 */
+input,
+button,
+select,
+textarea {
+    outline: none
+}
+
+/* 清浮动功能 */
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0px;
+    visibility: hidden;
+    clear: both;
+}
