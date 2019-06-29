@@ -1214,8 +1214,22 @@ input::-webkit-input-placeholder {
 }
 
 .sp-dv1 .spt1 {
-    text-align: center;
-    margin: 8px auto;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 5;
+}
+
+
+.sp-dv1 .spt3 {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 4;
+}
+
+.sp-dv1:hover .spt3 {
+    z-index: 6;
 }
 
 .sp-dv1 .spt2 {
