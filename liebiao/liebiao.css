@@ -1669,8 +1669,17 @@ input::-webkit-input-placeholder {
 }
 
 .sp-dv11 .spt1 {
-    text-align: center;
-    margin: 8px auto;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 5;
+}
+
+.sp-dv11 .spt3 {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 4;
 }
 
 .sp-dv11 .spt2 {
@@ -1678,6 +1687,10 @@ input::-webkit-input-placeholder {
     position: absolute;
     top: 230px;
     left: 7px;
+}
+
+.sp-dv11:hover .spt3 {
+    z-index: 6;
 }
 
 .sp-dv11 .jiage {
